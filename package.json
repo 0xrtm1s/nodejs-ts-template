@@ -16,6 +16,7 @@
     "dev": "nodemon --config nodemon.json src/index.ts",
     "lint": "eslint ./src",
     "prettier": "prettier --write .",
+    "prepare": "husky install",
     "start": "NODE_ENV=production && npm run build && node dist/src/index.js"
   },
   "devDependencies": {
@@ -23,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint": "^8.27.0",
+    "husky": "^8.0.2",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
