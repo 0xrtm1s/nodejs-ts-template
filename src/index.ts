@@ -1,5 +1,6 @@
 function sayHello() {
-  console.log('Hello');
+  const a = 1;
+  console.log('Hello', a);
 }
 
 sayHello();
